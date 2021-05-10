@@ -15,7 +15,7 @@ public class AvailController {
 	@RequestMapping("/")
 	public String index() {
 		this.template.executeInTransaction(t -> t.send("mcglobal-customers","Yes I am Available"));
-		return "Yes I am available";
+		return " Returned - Yes I am available";
 	}
 
 }
