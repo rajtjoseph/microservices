@@ -13,7 +13,14 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-
+/**
+ * 
+ * @author raj.joseph
+ *
+ * @version 1.1
+ * description: This Controller in Spring Boot is Rest COntroller 
+ * uses kafka template
+ */
 @RestController
 public class CustomerController {
 	
